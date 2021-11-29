@@ -1,128 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="60d0ffc2-152b-481d-a5e2-03c0047d4f3a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/app.653e226c.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-04757f5d.9b8c6c9b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-0a531f1f.b07219de.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-0b940865.6d24dacd.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-0cf3839e.81ed71f2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-11177076.7a6c56e1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-118c0d47.543e5073.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-1ae78a1a.9ad4b40f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-1d6f090d.cb8c5470.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-2786ca81.2e8fab77.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-30ca8599.b1dd7a76.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-31b9cda4.9d8162eb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-326a707b.078ef051.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-34b659ec.8394d684.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-3cdc8938.90a6ce5e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-3ef8d08a.23888889.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-4b0004f6.860218f8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-5390c43f.13a7e89e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-5a19bf4d.de8d5bef.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-61eddd59.5b175a70.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-6ade1460.5b27f791.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-738b70e2.fc684471.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-749bcee1.ed23d07d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-79b62882.95371419.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-7a8911e6.33cb7757.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-9327e1a4.c7dfc3db.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-ab072dd2.c85e8332.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-b62732b0.5b6b4ece.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-c2891248.7d926db9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-fef9cf3c.6e3839d3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-libs.3dfb7769.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/fonts/element-icons.535877f5.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/fonts/element-icons.732389de.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/401.089007e7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/404.a57b6f31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/404_cloud.0f4bc32b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/tui-editor-2x.b4361244.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/tui-editor.30dd0f52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/app.ee64cbe7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-04757f5d.6ddc104f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-0a531f1f.767e4739.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-0b940865.3793a40d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-0cf3839e.cdf76c94.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-0d1c46e8.e46a9d98.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-11177076.05f3e9cc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-118c0d47.c94a797d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-181fab9f.ff735105.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-1ae78a1a.17145c91.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-1d6f090d.66bd7536.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-2133cd4f.f8b8fd08.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-2786ca81.566d72e2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-2d0ac416.873befc7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-2d0b8e66.3e766da5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-2d0c84d3.48442b79.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-2d0c8bf7.8ebd87d4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-2d0cfaef.d6273995.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-2d0e4e1f.00efe372.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-2d0e944c.59d323a0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-2d20f537.71736061.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-2d2104c6.b6573989.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-2d2105d3.404da312.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-2d210b83.5ff5d768.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-2d226cab.4afa5ea5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-2d229205.5054e8f1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-2d230fe7.3bd3f709.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-30ca8599.72d3eb00.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-31b9cda4.91db0973.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-326a707b.431cb4c8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-34b659ec.63e21bad.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-3cdc8938.ce412df5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-3ef8d08a.a5512e50.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-4b0004f6.a65ee63d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-5390c43f.047ee0e5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-5a19bf4d.c30fb8c7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-61eddd59.26355ee7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-6ade1460.d7dd2bff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-738b70e2.3a2b6bb8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-749bcee1.d03f1b44.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-79b62882.41118a80.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-7a8911e6.eb7a778b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-8d4927f4.a12ff421.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-9327e1a4.d6a81ae6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-9e9c9b90.5c5cdf13.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-ab072dd2.b791c60c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-b62732b0.d4b23b79.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-c2891248.6736faa2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-elementUI.3e1dfd5d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-fef9cf3c.9ca37de4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-libs.b8289cf5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mock/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/mock/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/conf/config-schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/conf/config-schema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/conf/eslint-recommended.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/conf/eslint-recommended.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/cli-engine/cli-engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/cli-engine/cli-engine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/cli-engine/config-array-factory.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/cli-engine/config-array-factory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/cli-engine/file-enumerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/cli-engine/file-enumerator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/cli-engine/lint-result-cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/cli-engine/lint-result-cache.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/cli.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/linter/config-comment-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/linter/config-comment-parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/options.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rule-tester/rule-tester.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rule-tester/rule-tester.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/array-bracket-spacing.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/array-bracket-spacing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/key-spacing.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/key-spacing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/lines-between-class-members.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/lines-between-class-members.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-multiple-empty-lines.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-multiple-empty-lines.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-imports.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-imports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unsafe-negation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unsafe-negation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-numeric-literals.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-numeric-literals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/require-atomic-updates.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/require-atomic-updates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/src/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/node_modules/debug/src/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/permission.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.es.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.ja.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.zh-CN.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,17 +89,33 @@
       <option name="presentableId" value="Default" />
       <updated>1638151851261</updated>
       <workItem from="1638151852370" duration="3857000" />
+      <workItem from="1638156340272" duration="2353000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="184" y="50" width="1071" height="850" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1638153184471">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="50" width="1071" height="850" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1638153184471" />
+    <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1638159012211">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1638159012211" />
     <state width="1419" height="180" key="GridCell.Tab.0.bottom" timestamp="1638155680747">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
