@@ -5,10 +5,7 @@ const tokens = {
   },
   editor: {
     token: 'editor-token'
-  },
-  '18016266903': {
-    token: 'admin-token'
-  },
+  }
 }
 
 const users = {
