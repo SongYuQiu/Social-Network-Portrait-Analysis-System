@@ -1,7 +1,28 @@
-<p align="center">
-  <img width="320" src="https://wpimg.wallstcn.com/ecc53a42-d79b-42e2-8852-5126b810a4c8.svg">
-</p>
+<h1 align="center">
+社交媒体人物画像分析系统
+</h1>
 
+## 背景简介
+构建人物画像是描绘目标用户形象、把握需求与确定设计方向的有效途径，可以使产品实现精准服务。
+
+其次，贴近实际人物形象的人物画像结果非常有助于确定产品前期的设计，设计师能够通过画像获取到用户的切实需求以辅助产品进行正确的定位。
+
+人物画像是当前大数据领域的一种典型应用，是精细化和数据化运营的需求产物，普遍应用在互联网产品中。
+
+## 本科毕设简单介绍
+毕设主要研究基于微博博文等文本数据推断微博用户性别、年龄标签属性以及挖掘微博用户兴趣爱好的算法。
+
+搭建社交媒体人物画像分析系统，支持数据爬取、画像分析以及结果管理等功能，以可视化的方式呈现本文选用的算法模型推断出来的微博用户的性别、年龄标签概率值以及兴趣挖掘的关键词。
+
+## 所使用的数据集
+所使用的数据集是SMP CUP 在2016年发布的公开微博数据集，该数据集分了四个文件，分别是微博用户基本信息文件、微博用户标签文件、微博用户关系文件和微博文本文件。
+
+考虑到微博用户的个人简介、认证信息等文本内容对于微博用户的性别、年龄标签属性值的推断可能存在一定的价值，利用爬虫技术爬取了该数据集中所有微博用户更详细的基本信息以对数据集进行特征补充。
+
+同时，该数据集的发布时间为2016年，距离毕设研究的时间相对有些久远，绝大多数的微博用户的微博状态以及发布的博文肯定都有所更新，遂使用爬虫技术一并补充爬取数据集中微博用户从2016年至毕设开始时的微博文本数据。
+
+## 系统开发框架
+### 前端框架
 <p align="center">
   <a href="https://github.com/vuejs/vue">
     <img src="https://img.shields.io/badge/vue-2.6.10-brightgreen.svg" alt="vue">
@@ -26,225 +47,76 @@
   </a>
 </p>
 
-English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Spanish](./README.es.md)
+- [vue-element-admin](https://panjiachen.github.io/vue-element-admin) 是一个后台前端解决方案，它基于 [vue](https://github.com/vuejs/vue) 和 [element-ui](https://element.eleme.io/#/zh-CN/component/installation) 实现。它使用了最新的前端技术栈，内置了 i18n 国际化解决方案，动态路由，权限验证，提炼了典型的业务模型，提供了丰富的功能组件，它可以帮助你快速搭建企业级中后台产品原型。
 
-<p align="center">
-  <b>SPONSORED BY</b>
-</p>
-<table align="center" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td align="center" valign="middle" width="250">
-        <a href="https://www.duohui.cn/?utm_source=vue-element-admin&utm_medium=web&utm_campaign=vue-element-admin_github" title="多会" target="_blank">
-          <img height="60px" src="https://qiniu.cdn.duohui.co/brand/duohui.png" title="多会 - 活动服务销售平台">
-          <p>活动服务销售平台</p>
-        </a>
-      </td>
-      <td align="center" valign="middle" width="250">
-        <a href="https://youke.co/?utm_source=vue-element-admin&utm_medium=web&utm_campaign=vue-element-admin_github" title="有客" target="_blank">
-          <img height="60px" src="https://qiniu.cdn.duohui.co/brand/youke.png" title="有客 - 客户消息直达工作群">
-          <p>客户消息直达工作群</p>
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+- [在线预览](https://panjiachen.github.io/vue-element-admin)
 
-## Introduction
+- [使用文档](https://panjiachen.github.io/vue-element-admin-site/zh/)
 
-[vue-element-admin](https://panjiachen.github.io/vue-element-admin) is a production-ready front-end solution for admin interfaces. It is based on [vue](https://github.com/vuejs/vue) and uses the UI Toolkit [element-ui](https://github.com/ElemeFE/element).
+- License： [MIT](https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE)
+Copyright (c) 2017-present PanJiaChen
 
-[vue-element-admin](https://panjiachen.github.io/vue-element-admin) is based on the newest development stack of vue and it has a built-in i18n solution, typical templates for enterprise applications, and lots of awesome features. It helps you build large and complex Single-Page Applications. I believe whatever your needs are, this project will help you.
+### 后端框架
+- [Django](https://www.djangoproject.com/)
+- [后端代码仓库地址](https://github.com/zhangjie1982/SocialNetworkPortraitAnalysisSystemBackCode)
 
-- [Preview](https://panjiachen.github.io/vue-element-admin)
+## 前序准备
+`Vue-Element-Admin仓库README文件搬运`
 
-- [Documentation](https://panjiachen.github.io/vue-element-admin-site/)
+你需要在本地安装 [node](http://nodejs.org/) 和 [git](https://git-scm.com/) 。
 
-- [Gitter](https://gitter.im/vue-element-admin/discuss)
+项目技术栈基于 [ES2015+](http://es6.ruanyifeng.com/) 、[vue](https://cn.vuejs.org/index.html) 、[vuex](https://vuex.vuejs.org/zh-cn/) 、[vue-router](https://router.vuejs.org/zh-cn/) 、[vue-cli](https://github.com/vuejs/vue-cli) 、[axios](https://github.com/axios/axios) 和 [element-ui](https://github.com/ElemeFE/element) ，所有的请求数据都使用[Mock.js](https://github.com/nuysoft/Mock) 进行模拟，提前了解和学习这些知识会对使用本项目有很大的帮助。
 
-- [Donate](https://panjiachen.github.io/vue-element-admin-site/donate/)
+同时配套了系列教程文章，如何从零构建后一个完整的后台项目，建议大家先看完这些文章再来实践本项目
 
-- [Wiki](https://github.com/PanJiaChen/vue-element-admin/wiki)
+- [手把手，带你用 vue 撸后台 系列一(基础篇)](https://juejin.im/post/59097cd7a22b9d0065fb61d2)
+- [手把手，带你用 vue 撸后台 系列二(登录权限篇)](https://juejin.im/post/591aa14f570c35006961acac)
+- [手把手，带你用 vue 撸后台 系列三 (实战篇)](https://juejin.im/post/593121aa0ce4630057f70d35)
+- [手把手，带你用 vue 撸后台 系列四(vueAdmin 一个极简的后台基础模板)](https://juejin.im/post/595b4d776fb9a06bbe7dba56)
+- [手把手，带你用vue撸后台 系列五(v4.0新版本)](https://juejin.im/post/5c92ff94f265da6128275a85)
+- [手把手，带你封装一个 vue component](https://segmentfault.com/a/1190000009090836)
+- [手把手，带你优雅的使用 icon](https://juejin.im/post/59bb864b5188257e7a427c09)
+- [手把手，带你用合理的姿势使用 webpack4（上）](https://juejin.im/post/5b56909a518825195f499806)
+- [手把手，带你用合理的姿势使用 webpack4（下）](https://juejin.im/post/5b5d6d6f6fb9a04fea58aabc)
 
-- [Gitee](https://panjiachen.gitee.io/vue-element-admin/) 国内用户可访问该地址在线预览
-
-- Base template recommends using: [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)
-- Desktop: [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
-- Typescript: [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template) (Credits: [@Armour](https://github.com/Armour))
-- [awesome-project](https://github.com/PanJiaChen/vue-element-admin/issues/2312)
-
-**After the `v4.1.0+` version, the default master branch will not support i18n. Please use [i18n Branch](https://github.com/PanJiaChen/vue-element-admin/tree/i18n), it will keep up with the master update**
-
-**The current version is `v4.0+` build on `vue-cli`. If you find a problem, please put [issue](https://github.com/PanJiaChen/vue-element-admin/issues/new). If you want to use the old version , you can switch branch to [tag/3.11.0](https://github.com/PanJiaChen/vue-element-admin/tree/tag/3.11.0), it does not rely on `vue-cli`**
-
-**This project does not support low version browsers (e.g. IE). Please add polyfill by yourself.**
-
-## Preparation
-
-You need to install [node](https://nodejs.org/) and [git](https://git-scm.com/) locally. The project is based on [ES2015+](https://es6.ruanyifeng.com/), [vue](https://cn.vuejs.org/index.html), [vuex](https://vuex.vuejs.org/zh-cn/), [vue-router](https://router.vuejs.org/zh-cn/), [vue-cli](https://github.com/vuejs/vue-cli) , [axios](https://github.com/axios/axios) and [element-ui](https://github.com/ElemeFE/element), all request data is simulated using [Mock.js](https://github.com/nuysoft/Mock).
-Understanding and learning this knowledge in advance will greatly help the use of this project.
-
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/PanJiaChen/vue-element-admin/tree/CodeSandbox)
-
-<p align="center">
-  <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png">
-</p>
-
-## Sponsors
-
-Become a sponsor and get your logo on our README on GitHub with a link to your site. [[Become a sponsor]](https://www.patreon.com/panjiachen)
-
-### Akveo
-<a href="https://store.akveo.com/products/vue-java-admin-dashboard-spring?utm_campaign=akveo_store-Vue-Vue_demo%2Fgithub&utm_source=vue_admin&utm_medium=referral&utm_content=github_banner"><img width="500px" src="https://raw.githubusercontent.com/PanJiaChen/vue-element-admin-site/master/docs/.vuepress/public/images/vue-java-banner.png" /></a><p>Get Java backend for Vue admin with 20% discount for 39$ use coupon code SWB0RAZPZR1M
-</p>
-
-### Flatlogic
-
-<a href="https://flatlogic.com/admin-dashboards?from=vue-element-admin"><img width="150px" src="https://wpimg.wallstcn.com/9c0b719b-5551-4c1e-b776-63994632d94a.png" /></a><p>Admin Dashboard Templates made with Vue, React and Angular.</p>
-
-## Features
+## 系统功能
 
 ```
-- Login / Logout
 
-- Permission Authentication
-  - Page permission
-  - Directive permission
-  - Permission configuration page
-  - Two-step login
+- 微博数据爬取
+  - 爬取指定微博用户的微博文本
+  - 设置爬取开始时间
 
-- Multi-environment build
-  - Develop (dev)
-  - sit
-  - Stage Test (stage)
-  - Production (prod)
+- 微博用户管理
+  - 已爬取微博用户总数
+  - 已爬取所有微博文本总数
+  - 已生成人物画像数
+  - 删除已爬取微博用户数据
 
-- Global Features
-  - I18n
-  - Multiple dynamic themes
-  - Dynamic sidebar (supports multi-level routing)
-  - Dynamic breadcrumb
-  - Tags-view (Tab page Support right-click operation)
-  - Svg Sprite
-  - Mock data
-  - Screenfull
-  - Responsive Sidebar
+- 画像分析
+  - 推断性别概率
+  - 推断年龄概率
+  - 推断兴趣关键词
+  - 结果可视化展示
+  - 所爬取的微博文本的定位地图展示
+  - 所爬取的微博文本时间轴展示
 
-- Editor
-  - Rich Text Editor
-  - Markdown Editor
-  - JSON Editor
-
-- Excel
-  - Export Excel
-  - Upload Excel
-  - Visualization Excel
-  - Export zip
-
-- Table
-  - Dynamic Table
-  - Drag And Drop Table
-  - Inline Edit Table
-
-- Error Page
-  - 401
-  - 404
-
-- Components
-  - Avatar Upload
-  - Back To Top
-  - Drag Dialog
-  - Drag Select
-  - Drag Kanban
-  - Drag List
-  - SplitPane
-  - Dropzone
-  - Sticky
-  - CountTo
-
-- Advanced Example
-- Error Log
-- Dashboard
-- Guide Page
-- ECharts
-- Clipboard
-- Markdown to html
 ```
 
-## Getting started
+## 开发
 
 ```bash
-# clone the project
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+# 克隆项目
+git clone git@github.com:zhangjie1982/SocialNetworkPortraitAnalysisSystem.git
 
-# enter the project directory
-cd vue-element-admin
+# 进入项目目录
+cd SocialNetworkPortraitAnalysisSystem
 
-# install dependency
+# 安装依赖
 npm install
 
-# develop
+# 启动服务
 npm run dev
 ```
 
-This will automatically open http://localhost:9527
-
-## Build
-
-```bash
-# build for test environment
-npm run build:stage
-
-# build for production environment
-npm run build:prod
-```
-
-## Advanced
-
-```bash
-# preview the release environment effect
-npm run preview
-
-# preview the release environment effect + static resource analysis
-npm run preview -- --report
-
-# code format check
-npm run lint
-
-# code format check and auto fix
-npm run lint -- --fix
-```
-
-Refer to [Documentation](https://panjiachen.github.io/vue-element-admin-site/guide/essentials/deploy.html) for more information
-
-## Changelog
-
-Detailed changes for each release are documented in the [release notes](https://github.com/PanJiaChen/vue-element-admin/releases).
-
-## Online Demo
-
-[Preview](https://panjiachen.github.io/vue-element-admin)
-
-## Donate
-
-If you find this project useful, you can buy author a glass of juice :tropical_drink:
-
-![donate](https://wpimg.wallstcn.com/bd273f0d-83a0-4ef2-92e1-9ac8ed3746b9.png)
-
-[Paypal Me](https://www.paypal.me/panfree23)
-
-[Buy me a coffee](https://www.buymeacoffee.com/Pan)
-
-## Browsers support
-
-Modern browsers and Internet Explorer 10+.
-
-| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Safari |
-| --------- | --------- | --------- | --------- |
-| IE10, IE11, Edge | last 2 versions | last 2 versions | last 2 versions |
-
-## License
-
-[MIT](https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE)
-
-Copyright (c) 2017-present PanJiaChen
+浏览器访问 http://localhost:9527
