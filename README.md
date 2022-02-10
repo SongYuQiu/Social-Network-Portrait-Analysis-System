@@ -107,7 +107,7 @@ Copyright (c) 2017-present PanJiaChen
 
 ```bash
 # 克隆项目
-git clone git@github.com:zhangjie1982/SocialNetworkPortraitAnalysisSystem.git
+git clone git@github.com:SongYuQiu/SocialNetworkPortraitAnalysisSystem.git
 
 # 进入项目目录
 cd SocialNetworkPortraitAnalysisSystem
@@ -122,6 +122,6 @@ npm run dev
 浏览器访问 http://localhost:9527
 
 ## License
-[MIT](https://github.com/zhangjie1982/SocialNetworkPortraitAnalysisSystem/blob/master/LICENSE) 
+[MIT](https://github.com/SongYuQiu/SocialNetworkPortraitAnalysisSystem/blob/master/LICENSE) 
 
 Copyright (c) 2021 Just for Star (yqSong)
