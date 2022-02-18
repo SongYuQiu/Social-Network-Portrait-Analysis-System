@@ -122,6 +122,6 @@ npm run dev
 浏览器访问 http://localhost:9527
 
 ## License
-[MIT](https://github.com/SongYuQiu/SocialNetworkPortraitAnalysisSystem/blob/master/LICENSE) 
+[MIT](https://github.com/SongYuQiu/Social-Network-Portrait-Analysis-System/blob/master/LICENSE) 
 
 Copyright (c) 2021 Just for Star (yqSong)
